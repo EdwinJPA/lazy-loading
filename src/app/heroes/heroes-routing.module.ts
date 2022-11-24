@@ -17,19 +17,13 @@ const rutas: Routes = [
       { path: 'editar/:id', component: AgregarComponent },
       { path: 'buscar', component: BuscarComponent },
       { path: ':id', component: HeroeComponent },
-      { path: '**', redirectTo: 'listado' }
-    ]
-  }
+      { path: '**', redirectTo: 'listado' },
+    ],
+  },
 ];
 
-
-
 @NgModule({
-  imports: [
-    RouterModule.forChild( rutas )
-  ],
-  exports: [
-    RouterModule
-  ]
+  imports: [RouterModule.forChild(rutas)],
+  exports: [RouterModule],
 })
-export class HeroesRoutingModule { }
+export class HeroesRoutingModule {}

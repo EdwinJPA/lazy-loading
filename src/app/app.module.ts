@@ -10,17 +10,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { ErrorPageComponent } from './shared/error-page/error-page.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ErrorPageComponent
-  ],
+  declarations: [AppComponent, ErrorPageComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -15,8 +15,6 @@ import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.
 import { ImagenPipe } from './pipes/imagen.pipe';
 import { ConfirmarComponent } from './components/confirmar/confirmar.component';
 
-
-
 @NgModule({
   declarations: [
     AgregarComponent,
@@ -26,14 +24,14 @@ import { ConfirmarComponent } from './components/confirmar/confirmar.component';
     ListadoComponent,
     HeroeTarjetaComponent,
     ImagenPipe,
-    ConfirmarComponent
+    ConfirmarComponent,
   ],
   imports: [
     CommonModule,
     FlexLayoutModule,
     FormsModule,
     MaterialModule,
-    HeroesRoutingModule
-  ]
+    HeroesRoutingModule,
+  ],
 })
-export class HeroesModule { }
+export class HeroesModule {}

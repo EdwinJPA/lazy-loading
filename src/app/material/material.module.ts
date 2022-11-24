@@ -30,7 +30,7 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatToolbarModule,
     MatSelectModule,
     MatSnackBarModule,
-    MatDialogModule
+    MatDialogModule,
   ],
 })
 export class MaterialModule {}
